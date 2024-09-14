@@ -1,0 +1,71 @@
+
+@keyframes fundoPiscar {
+  0% {
+    background-color: #f0e68c;
+  }
+  50% {
+    background-color: #7326a0;
+  }
+  100% {
+    background-color: #39ff14;
+  }
+ 
+
+}
+
+.container {
+ padding-left: 25px;
+ align-content: center;
+  height: 100vh;
+  animation: fundoPiscar 3s infinite; 
+}
+
+.form {
+  justify-content: center;
+  background-color: red; 
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.heading {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.label {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: white;
+}
+
+.input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.button {
+  padding: 10px;
+  background-color: #39FF14;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+
+  
