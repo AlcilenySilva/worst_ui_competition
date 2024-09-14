@@ -14,6 +14,10 @@
 }
 
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
  padding-left: 25px;
  align-content: center;
   height: 100vh;
